@@ -29,7 +29,7 @@ public class FormBarang extends AppCompatActivity {
     public void handleSubmit(View view) {
         String kode_barang = input_kode.getText().toString();
         String nama_barang = input_nama.getText().toString();
-        int stok = Integer.parseInt(input_kode.getText().toString());
+        int stok = Integer.parseInt(input_stok.getText().toString());
         Barang barang = new Barang(kode_barang,nama_barang,stok);
         Intent intent = new Intent(FormBarang.this,MasterBarang.class);
         intent.putExtra(BARANG_KEY,barang);
