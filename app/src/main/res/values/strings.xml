@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Inventory</string>
+    <string name="title">Tambah Barang</string>
+    <string name="kode_barang">Kode Barang</string>
+    <string name="kode_barang_hint">Kode Barang</string>
+    <string name="nama_barang">Nama</string>
+    <string name="nama_barang_hint">Nama Barang</string>
+    <string name="stok">Stok</string>
+    <string name="stok_hint">Stok</string>
+    <string name="submit">SUBMIT</string>
+    <string name="profile">Master Barang</string>
+</resources>
